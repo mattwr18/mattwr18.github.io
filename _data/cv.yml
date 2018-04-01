@@ -1,0 +1,85 @@
+url: http://streetturtle.github.io
+projectUrl: jekyl-cv-crafter
+
+# leave blank fields which you don't want to fill/be displayed
+person:
+  name: Matthew Rider
+  depiction: assets/images/profile.jpeg
+  profession: Computer programmer
+  location: Florianopolis, Brazil
+  citizenship: USA
+  email: mattwr18@gmail.com
+  site: http://mattwr18.github.io
+  phone: +55 48-99984-3216
+  github: /mattwr18
+  stackoverflow:
+  linkedin: /matt-rider
+
+career:
+ - position: English Teacher
+   company: CCAA
+   location: Florianopolis, Brazil
+   dates: September 2013 - 2016
+   summary: Taught English classes to small groups of intermediate and advanced students.
+ - position: Face to Face Campaigner
+   company: Greenpeace, Inc
+   location: New Zealand
+   dates: May 2009 – December 2010
+   summary: Responsible for engaging the public about environmental issues as well as raising money.
+   accomplishments:
+    - accomplishment: 1,100 sign ups in 18 months
+technicalSkills:
+  list:
+    - tr: "Git basics, Github"
+    - tr: "Linux user/ command line"
+    - tr: "Ruby on Rails projects"
+    - tr: "JavaScript"
+    - tr: "ReactJS"
+    - tr: "Jekyll sites"
+  backend:
+   - name: Ruby on Rails
+     level: 20
+   - name: Postgresql
+     level: 10
+  frontend:
+   - name: HTML/ CSS
+     level: 20
+   - name: Bootstrap
+     level: 50
+  other:
+   - name: Determination
+     level: 90
+   - name: Teaching
+     level: 80
+
+sideProjects:
+  - name: missmoo-website-rails
+    description: Website for my wife's plant-based milk company.
+    link: https://github.com/mattwr18/missmoo-website-rails
+    type: site
+    langs: RoR/Bootstrap
+
+  - name: missmoo-program-rails
+    description: Rails App for small businesses to better manage their stock and profits.
+    link: https://github.com/mattwr18/missmoo-program-rails
+    type: app
+    langs: RoR/Bootstrap
+
+education:
+  - name: Udemy
+    course: The Complete Ruby on Rails Developer's Course
+    course2: The Complete Web Developer's Course 2.0
+    course3: MOOC
+    dates: 2017 - present
+
+  - name: Codecademy
+    course: Ruby
+    course2: Learn JavaScript
+    course3: Learn HTML && CSS
+    location: MOOC
+    dates: 2017
+
+  - name: Code School
+    course: Rails for Zombies
+    location: MOOC
+    dates: 2017
