@@ -27,19 +27,6 @@ twitter_username:
 github_username: mattwr18
 logo: # path of site logo, e.g. "/assets/images/logo.png"
 search: true
-title: My Awesome Site
-email:
-description:
-baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-author:
-  name:
-  twitter:
-  picture:
-twitter_username:
-github_username:
-logo: # path of site logo, e.g. "/assets/images/logo.png"
-search: # true, false (default)
 search_full_content: false # true, false (default)
 search_provider: # lunr (default), algolia
 algolia:
@@ -63,6 +50,11 @@ feed:
 paginate: 5
 paginate_path: /page:num/
 
+sass:
+    load_paths:
+      - _sass
+      - node_modules
+
 # Exclude from processing.
 exclude:
   - .asset-cache
@@ -77,7 +69,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - node_modules
   - Rakefile
   - README
   - vendor/bundle/
