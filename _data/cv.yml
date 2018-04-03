@@ -36,6 +36,11 @@ technicalSkills:
     - tr: "JavaScript"
     - tr: "ReactJS"
     - tr: "Jekyll sites"
+  languages:
+    - name: "English"
+      level: "Native"
+    - name: "Brazilian Portuguese"
+      level: "Intermediate"
   backend:
    - name: Ruby on Rails
      level: 20
@@ -62,7 +67,7 @@ sideProjects:
   - name: missmoo-program-rails
     description: Rails App for small businesses to better manage their stock and profits.
     link: https://github.com/mattwr18/missmoo-program-rails
-    type: app
+    type: github
     langs: RoR/Bootstrap
 
 education:

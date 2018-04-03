@@ -20,3 +20,35 @@ $accent-color: #7BBABF;
 .intro-title {
   display: none;
 }
+
+.site-title a:hover {
+  color: #7BBABF;
+}
+
+.bottom-container img,  .bottom-container h2{
+  padding: 25px;
+}
+
+
+.name {
+  padding-bottom: 50px;
+}
+
+.crab-beach {
+  padding: 35px;
+}
+
+.bg-containers {
+  background-color: #ECE7D6;
+  border: 5px solid #222831;
+  margin: 10px 0 50px 0;
+}
+
+.top-container-about, .bottom-container-about {
+  margin: 0 50px 100px 50px;
+  width: 80%;
+}
+
+.top-container-about h3, .bottom-container-about h3 {
+  padding: 15px;
+}

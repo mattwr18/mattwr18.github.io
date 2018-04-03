@@ -1,14 +1,9 @@
 ---
 title: Curriculum Vitæ
-layout: page
-actions:
-  - label: "Download as PDF"
-    icon: pdf
-    url: "#cv"
+layout: post
+
 ---
 
-<!DOCTYPE html>
-<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -41,8 +36,8 @@ actions:
 </head>
 
 <body>
-  <div class="container">
-      <div class="row header bg-brown">
+  <div class="container container-cv">
+      <div class="row header bg-dark-green">
           <div class="col-xs-6">
               <h1 class="name">{{ site.data.cv.person.name }}</h1>
               <span class="profession">{{ site.data.cv.person.profession }}</span>
@@ -162,15 +157,30 @@ actions:
           {% endfor %}
         </div>
         </div>
-        <div>
-          <h4><i class="fa fa-male"></i> Key competencies:</h4>
-        <ul>
-          {% for item in site.data.cv.technicalSkills.list %}
-            <li>{{item.tr}}</li>
-          {% endfor %}
-        </ul>
-
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <h4><i class="fa fa-male"></i> Key competencies:</h4>
+              <ul>
+                {% for item in site.data.cv.technicalSkills.list %}
+                <li>{{item.tr}}</li>
+                {% endfor %}
+              </ul>
             </div>
+
+            <div class="col-md-4">
+              <h4><i class="fa fa-female"></i> Languages:</h4>
+              <ul>
+               {% for item in site.data.cv.technicalSkills.languages %}
+               <li>{{item.level}} {{item.name}}</li>
+               {% endfor %}
+              </ul>
+            </div>
+
+            <div class="col-md-4">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 

@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: Matthew Rider's portfolio
+title: Portfolio
 email: mattwr18@gmail.com
 description: A collection of my projects.
 baseurl: # the optional subpath of your site, e.g. "/blog"
@@ -55,8 +55,6 @@ sass:
       - _sass
       - node_modules
 
-include:
-  - node_modules
 # Exclude from processing.
 exclude:
   - .asset-cache
