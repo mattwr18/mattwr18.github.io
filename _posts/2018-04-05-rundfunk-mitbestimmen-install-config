@@ -1,0 +1,52 @@
+---
+layout: page
+---
+Local installation
+
+node -v
+v8.11.1
+
+yarn -v
+1.5.1
+
+ember -v
+ember-cli: 2.1.1
+node: 8.11.1
+os: linux x64
+
+ruby -v
+ruby 2.4.1p111
+
+psql -v
+psql 10.3
+
+cloned repo
+
+
+installed dependencies for full stack
+cd rundfunk-mitbestimmen
+- bundle
+
+installed frontend dependencies
+cd frontend
+- yarn install
+
+installed backend dependencies
+cd backend
+bundle
+rails db:create db:migrate
+
+db:seed
+
+bundle exec sidekiq
+install redis
+https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04
+
+PhantomJS install
+
+backend servers up and running
+frontend as well
+tests running
+
+Install watchman(from source)
+https://facebook.github.io/watchman/docs/install.html
